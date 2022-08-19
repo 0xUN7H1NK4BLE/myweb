@@ -1,4 +1,3 @@
-import { padding } from "@mui/system";
 import React, { useEffect, useState } from "react";
 
 const CircularProgress = ({ size, strokeWidth, percentage, color }) => {
