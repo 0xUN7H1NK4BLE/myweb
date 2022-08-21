@@ -213,7 +213,7 @@ const Project = ()=>{
                     </p>
                   </div>
                   <Button variant="outline-secondary" href="https://anishsir404.github.io/Quote-generator/">See Live</Button>{'     '}
-                  <Button variant="outline-secondary" href="" >Source Code</Button>{' '}
+                  <Button variant="outline-secondary" href="https://github.com/Anishsir404/Quote-generator" >Source Code</Button>{' '}
 
                 </div>
               </div>
@@ -231,7 +231,7 @@ const Project = ()=>{
                       <Tilt className="Tilt myedit" options={{ max : 15}} style={{height:200}} ><div className="Tilt-inner"><img
                         alt="Project"
                         class="img-fluid"
-                        src={project5}
+                        src={project7}
                       /> </div>
                     </Tilt>
                     </div>
