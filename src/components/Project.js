@@ -6,6 +6,7 @@ import project2 from '../assets/img/project2.png'
 import project3 from '../assets/img/project3.png'
 import project5 from '../assets/img/project5.png'
 import project6 from '../assets/img/project6.png'
+import project7 from '../assets/img/project7.png'
 import Button from 'react-bootstrap/Button';
 
 
