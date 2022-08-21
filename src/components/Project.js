@@ -206,6 +206,44 @@ const Project = ()=>{
             <div class="row">
               <div class="col-lg-4 col-sm-12 spacing">
                 <div class="project-wrapper__text load-hidden mypos">
+                  <h3 class="project-wrapper__text-title">Quote Generator</h3>
+                  <div>
+                    <p class="mb-4">
+                      This website is make to get rendom quote and we can share it in twitter also.
+                    </p>
+                  </div>
+                  <Button variant="outline-secondary" href="https://anishsir404.github.io/Quote-generator/">See Live</Button>{'     '}
+                  <Button variant="outline-secondary" href="" >Source Code</Button>{' '}
+
+                </div>
+              </div>
+              <div class="col-lg-8 col-sm-12 spacing">
+                <div class="project-wrapper__image load-hidden">
+                  <a rel="noreferrer" href="https://anishsir404.github.io/Quote-generator/" target="_blank">
+                    <div
+                      data-tilt
+                      data-tilt-max="4"
+                      data-tilt-glare="true"
+                      data-tilt-max-glare="0.5"
+                      class="thumbnail rounded js-tilt"
+                      style={{paddingLeft:'15px'}}
+                    >
+                      <Tilt className="Tilt myedit" options={{ max : 15}} style={{height:200}} ><div className="Tilt-inner"><img
+                        alt="Project"
+                        class="img-fluid"
+                        src={project5}
+                      /> </div>
+                    </Tilt>
+                    </div>
+                  </a>
+                </div>
+              </div>
+            </div>
+
+
+            <div class="row">
+              <div class="col-lg-4 col-sm-12 spacing">
+                <div class="project-wrapper__text load-hidden mypos">
                   <h3 class="project-wrapper__text-title">Bash Script</h3>
                   <div>
                     <p class="mb-4">
