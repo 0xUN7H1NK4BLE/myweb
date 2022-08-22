@@ -370,6 +370,25 @@ padding: 140px 0 70px 0;
 
 }
 
+@media screen and (max-width:1000px) {
+	.spacing{
+    padding-bottom: 50px;
+  }
+  .myedit{
+    padding-top: 2px;
+    display: flex;
+    padding-left: 1px;
+    padding-right: 5px;
+
+  }
+
+  .mypos{
+    position: center;
+    padding: 6px 0 2px 0;
+
+    }
+}
+
 /************ Projects Css ************/
 .contact {
   background: linear-gradient(90.21deg, #412234 -5.91%, #3b306c 111.58%);

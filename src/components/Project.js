@@ -7,6 +7,7 @@ import project3 from '../assets/img/project3.png'
 import project5 from '../assets/img/project5.png'
 import project6 from '../assets/img/project6.png'
 import project7 from '../assets/img/project7.png'
+import project8 from '../assets/img/project8.png'
 import Button from 'react-bootstrap/Button';
 
 
@@ -195,6 +196,44 @@ const Project = ()=>{
                         alt="Project"
                         class="img-fluid"
                         src={project5}
+                      /> </div>
+                    </Tilt>
+                    </div>
+                  </a>
+                </div>
+              </div>
+            </div>
+
+
+            <div class="row">
+              <div class="col-lg-4 col-sm-12 spacing">
+                <div class="project-wrapper__text load-hidden mypos">
+                  <h3 class="project-wrapper__text-title">Joke taller</h3>
+                  <div>
+                    <p class="mb-4">
+                      this is a simple html, css and javascript program which use joke api and text to speech api to tell a joke.
+                    </p>
+                  </div>
+                  <Button variant="outline-secondary" href="https://anishsir404.github.io/Joke-teller/">See Live</Button>{'     '}
+                  <Button variant="outline-secondary" href="https://github.com/Anishsir404/Joke-teller" >Source Code</Button>{' '}
+
+                </div>
+              </div>
+              <div class="col-lg-8 col-sm-12 spacing">
+                <div class="project-wrapper__image load-hidden">
+                  <a rel="noreferrer" href="https://anishsir404.github.io/Joke-teller/" target="_blank">
+                    <div
+                      data-tilt
+                      data-tilt-max="4"
+                      data-tilt-glare="true"
+                      data-tilt-max-glare="0.5"
+                      class="thumbnail rounded js-tilt"
+                      style={{paddingLeft:'15px'}}
+                    >
+                      <Tilt className="Tilt myedit" options={{ max : 15}} style={{height:200}} ><div className="Tilt-inner"><img
+                        alt="Project"
+                        class="img-fluid"
+                        src={project8}
                       /> </div>
                     </Tilt>
                     </div>
