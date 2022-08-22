@@ -23,7 +23,7 @@ const Project = ()=>{
                   <h3 class="project-wrapper__text-title">Password Manager</h3>
                   <div>
                     <p class="mb-4">
-                      It is a python program which store yours id and passsword securly. It encrypt yours data and store it which can only be unlock by a master password.
+                    This Python program encrypts and securely stores your data – it can only be unlocked by a master password.
                     </p>
                   </div>
                   <Button variant="outline-secondary" href="https://github.com/Anishsir404/password_manager">See Live</Button>{'     '}
@@ -62,7 +62,7 @@ const Project = ()=>{
                   <h3 class="project-wrapper__text-title">Background Gradient Generater.</h3>
                   <div>
                     <p class="mb-4">
-                      This website will help you to get yours prefered background color in easy and fast. It is written in HTML ,CSS and JavaScript.
+                    Use this website to help you find perfect background colors. Written in HTML ,CSS and JavaScript, it is fast and simple to use!
                     </p>
                   </div>
                   <Button variant="outline-secondary" href="https://anishsir404.github.io/gradient-background/">See Live</Button>{'     '}

@@ -9,7 +9,7 @@ export const Banner = () => {
 
     const [loopNum , setLoopNum]=useState(0);
     const [isDeleting,setISDeleting]=useState(false);
-    const toRotate =["Ethical hacker","web developer","programmer","and a learner"];
+    const toRotate =["a Ethical hacker","web developer","programmer","and a learner"];
     const [text,setText] = useState('');
     const [delta,setDelta] = useState(300 - Math.random() * 100);
     const period = 2000;
@@ -54,7 +54,7 @@ export const Banner = () => {
                         <p className="anish">{`Hi I'm Anish `}</p>
                         <div ><span className="wrap">{text}</span>
                         </div>
-                        <p>I am a student who is dedicated in his passion always stand out of crowd because I of curiosity. I am active, enthusiastic, diligent,and ambitious with good communication, problem solving, decision making skills and is openness to criticism.
+                        <p>I stand out from the crowd because I am enthusiastic and passionate about my work. My diligence, problem solving skills, and openness to criticism ensure that each day I will become a better person than the day before.
                         </p>
                         <button onClick={()=> console.log('connect')}>Let's Connect <ArrowRightCircle size={25}/></button>
                     </Col>
